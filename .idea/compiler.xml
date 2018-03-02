@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="auth0-spring-security-mvc_main" target="1.7" />
       <module name="auth0-spring-security-mvc_test" target="1.8" />
+      <module name="Açai_Web_main" target="1.8" />
+      <module name="Açai_Web_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

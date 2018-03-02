@@ -24,7 +24,7 @@ import LoginForm from '../components/login/components/LoginForm'
 
 
 export default
-    <Route path="/" component={props => protectedRoute(props, App)} title="Açaí Web">
+    <Route path="/" component={props => protectedRoute(props, App)} title="Web">
         <Route path="/home" component={Home}/>
         <Route path="/login" component={LoginForm}/>
         <Route path="/inbox" component={Inbox}/>

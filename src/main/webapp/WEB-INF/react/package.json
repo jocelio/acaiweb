@@ -40,7 +40,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "dev": "NODE_ENV=dev API_URL=http://localhost:8001 webpack --watch --watch-poll",
+    "dev": "NODE_ENV=dev API_URL=http://localhost:3000 webpack --watch --watch-poll",
     "build:prod": "NODE_ENV=production API_URL=http://torneyo.herokuapp.com webpack -p --config webpack.config.js"
   }
 }
